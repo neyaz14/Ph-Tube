@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy ui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <header>
+        <nav class="w-11/12 mx-auto my-4  flex justify-between items-center ">
+            <div class="w-[140px]"><img  src="asstes/Logo.png" alt=""></div>
+        <!-- search button -->
+            <div>
+                <label class="input input-bordered flex items-center gap-2">
+                    <input type="text" class="grow" placeholder="Search" />
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      class="h-4 w-4 opacity-70">
+                      <path
+                        fill-rule="evenodd"
+                        d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                        clip-rule="evenodd" />
+                    </svg>
+
+                  </label>
+            </div>
+
+            <!-- shorting button -->
+            <div> <button class="btn btn-error font-bold text-white w-24 ">Sort</button></div>
+        </nav>
+
+    <!-- button -->
+        <div class="border "></div>
+
+        <section id="btn-catagories"   class="flex justify-center items-center gap-4 mt-4">
+
+        </section>
+    </header>
+
+
+<!-- video section -->
+    <section  id="videos"      class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-10">
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="script/loadvideos.js"></script>
+    <script src="script/Loadbtn.js"></script>
+    
+</body>
+</html>
